@@ -43,3 +43,12 @@ D:\Oop\Project\ToyStorePOS\ToyStore-master\DataAccessLayer\obj\Debug\DataAccessL
 D:\Oop\Project\ToyStorePOS\ToyStore-master\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 D:\Oop\Project\ToyStorePOS\ToyStore-master\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 D:\Oop\Project\ToyStorePOS\ToyStore-master\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\Oop\Project\BeverageShopManagement\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\Oop\Project\BeverageShopManagement\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Oop\Project\BeverageShopManagement\DataAccessLayer\bin\Debug\DTO.dll
+D:\Oop\Project\BeverageShopManagement\DataAccessLayer\bin\Debug\DTO.pdb
+D:\Oop\Project\BeverageShopManagement\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Oop\Project\BeverageShopManagement\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Oop\Project\BeverageShopManagement\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+D:\Oop\Project\BeverageShopManagement\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\Oop\Project\BeverageShopManagement\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
