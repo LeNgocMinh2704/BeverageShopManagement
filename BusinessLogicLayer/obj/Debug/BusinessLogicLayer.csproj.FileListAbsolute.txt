@@ -53,3 +53,14 @@ D:\Oop\Project\ToyStorePOS\ToyStore-master\BusinessLogicLayer\obj\Debug\Business
 D:\Oop\Project\ToyStorePOS\ToyStore-master\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
 D:\Oop\Project\ToyStorePOS\ToyStore-master\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
 D:\Oop\Project\ToyStorePOS\ToyStore-master\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+D:\Oop\Project\BeverageShopManagement\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+D:\Oop\Project\BeverageShopManagement\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+D:\Oop\Project\BeverageShopManagement\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+D:\Oop\Project\BeverageShopManagement\BusinessLogicLayer\bin\Debug\DTO.dll
+D:\Oop\Project\BeverageShopManagement\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+D:\Oop\Project\BeverageShopManagement\BusinessLogicLayer\bin\Debug\DTO.pdb
+D:\Oop\Project\BeverageShopManagement\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+D:\Oop\Project\BeverageShopManagement\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+D:\Oop\Project\BeverageShopManagement\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+D:\Oop\Project\BeverageShopManagement\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+D:\Oop\Project\BeverageShopManagement\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb

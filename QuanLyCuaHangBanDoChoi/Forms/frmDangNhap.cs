@@ -25,17 +25,17 @@ namespace QuanLyCuaHangBanDoChoi.Forms
 
         private void frmDangNhap_Load(object sender, EventArgs e)
         {
-            txtMatKhau.PasswordChar = '●';
+            //txtMatKhau.PasswordChar = '●';
 
-            txtTenDangNhap.Visible = false;
-            txtMatKhau.Visible = false;
-            btnShowPass.Visible = false;
+            //txtTenDangNhap.Visible = false;
+            //txtMatKhau.Visible = false;
+            //btnShowPass.Visible = false;
 
-            timer1.Start();
-            timer2.Start();
+            //timer1.Start();
+            //timer2.Start();
 
-            lbDangNhap.ForeColor = Color.FromArgb(240, 240, 240);
-            lbMatKhau.ForeColor = Color.FromArgb(240, 240, 240);
+            //lbDangNhap.ForeColor = Color.FromArgb(240, 240, 240);
+            //lbMatKhau.ForeColor = Color.FromArgb(240, 240, 240);
         }
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
@@ -74,33 +74,33 @@ namespace QuanLyCuaHangBanDoChoi.Forms
 
         private void txtTenDangNhap_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
-            {
-                XuLyDangNhap();
-            }
+            //if (e.KeyCode == Keys.Enter)
+            //{
+            //    XuLyDangNhap();
+            //}
         }
 
         private void txtMatKhau_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
-            {
-                XuLyDangNhap();
-            }
+            //if (e.KeyCode == Keys.Enter)
+            //{
+            //    XuLyDangNhap();
+            //}
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (txtTenDangNhap.Top <= 345)
-            {
-                txtTenDangNhap.Top += 1;
-                pnlTenDangNhap.Top += 1;
-                btnShowPass.Top += 1;
+            //if (txtTenDangNhap.Top <= 345)
+            //{
+            //    txtTenDangNhap.Top += 1;
+            //    pnlTenDangNhap.Top += 1;
+            //    btnShowPass.Top += 1;
 
-                txtMatKhau.Top += 1;
-                pnlMatKhau.Top += 1;
-            }
-            else
-                timer1.Stop();
+            //    txtMatKhau.Top += 1;
+            //    pnlMatKhau.Top += 1;
+            //}
+            //else
+            //    timer1.Stop();
         }
         int R1 = 26;
         int G1 = 25;
@@ -108,23 +108,23 @@ namespace QuanLyCuaHangBanDoChoi.Forms
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            lbDangNhapLOGO.ForeColor = Color.FromArgb(R1, G1, B1);
-            lbDangNhap.ForeColor = Color.FromArgb(R1, G1, B1);
-            lbMatKhau.ForeColor = Color.FromArgb(R1, G1, B1);
-            if (R1 > 17)
-                R1 -= 1;
-            if (G1 < 145)
-                G1 += 5;
-            if (B1 < 249)
-                B1 += 10;
-            if (R1 == 17 && G1 == 145 && B1 == 249)
-            {
-                txtTenDangNhap.Visible = true;
-                txtMatKhau.Visible = true;
-                btnShowPass.Visible = true;
-                txtTenDangNhap.Focus();
-                timer2.Stop();
-            }
+            //lbDangNhapLOGO.ForeColor = Color.FromArgb(R1, G1, B1);
+            //lbDangNhap.ForeColor = Color.FromArgb(R1, G1, B1);
+            //lbMatKhau.ForeColor = Color.FromArgb(R1, G1, B1);
+            //if (R1 > 17)
+            //    R1 -= 1;
+            //if (G1 < 145)
+            //    G1 += 5;
+            //if (B1 < 249)
+            //    B1 += 10;
+            //if (R1 == 17 && G1 == 145 && B1 == 249)
+            //{
+            //    txtTenDangNhap.Visible = true;
+            //    txtMatKhau.Visible = true;
+            //    btnShowPass.Visible = true;
+            //    txtTenDangNhap.Focus();
+            //    timer2.Stop();
+            //}
         }
 
         private void btnShowPass_Click(object sender, EventArgs e)
