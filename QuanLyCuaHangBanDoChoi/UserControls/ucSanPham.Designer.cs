@@ -48,13 +48,13 @@
             // lblGiaKM
             // 
             this.lblGiaKM.AutoSize = true;
-            this.lblGiaKM.Font = new System.Drawing.Font("UTM Avo", 12F);
+            this.lblGiaKM.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblGiaKM.ForeColor = System.Drawing.Color.DarkOrange;
             this.lblGiaKM.Location = new System.Drawing.Point(14, 123);
             this.lblGiaKM.Name = "lblGiaKM";
-            this.lblGiaKM.Size = new System.Drawing.Size(103, 22);
+            this.lblGiaKM.Size = new System.Drawing.Size(112, 20);
             this.lblGiaKM.TabIndex = 5;
-            this.lblGiaKM.Text = "Giá: 200vnd";
+            this.lblGiaKM.Text = "Giá: 20000vnd";
             this.lblGiaKM.MouseEnter += new System.EventHandler(this.ucSanPham_MouseEnter);
             this.lblGiaKM.MouseLeave += new System.EventHandler(this.ucSanPham_MouseLeave);
             // 
@@ -73,7 +73,7 @@
             // lblKM
             // 
             this.lblKM.BackColor = System.Drawing.Color.Transparent;
-            this.lblKM.Font = new System.Drawing.Font("UTM Avo", 7F, System.Drawing.FontStyle.Bold);
+            this.lblKM.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Bold);
             this.lblKM.ForeColor = System.Drawing.Color.Gold;
             this.lblKM.Location = new System.Drawing.Point(1, 0);
             this.lblKM.Name = "lblKM";
@@ -99,13 +99,13 @@
             // lblGiaGoc
             // 
             this.lblGiaGoc.AutoSize = true;
-            this.lblGiaGoc.Font = new System.Drawing.Font("UTM Avo", 7F);
+            this.lblGiaGoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
             this.lblGiaGoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblGiaGoc.Location = new System.Drawing.Point(16, 143);
             this.lblGiaGoc.Name = "lblGiaGoc";
-            this.lblGiaGoc.Size = new System.Drawing.Size(44, 13);
+            this.lblGiaGoc.Size = new System.Drawing.Size(55, 13);
             this.lblGiaGoc.TabIndex = 7;
-            this.lblGiaGoc.Text = "200vnd";
+            this.lblGiaGoc.Text = "20000vnd";
             this.lblGiaGoc.MouseEnter += new System.EventHandler(this.ucSanPham_MouseEnter);
             this.lblGiaGoc.MouseLeave += new System.EventHandler(this.ucSanPham_MouseLeave);
             // 
@@ -133,19 +133,19 @@
             // lblTenSP
             // 
             this.lblTenSP.AutoEllipsis = true;
-            this.lblTenSP.Font = new System.Drawing.Font("UTM Avo", 8F, System.Drawing.FontStyle.Bold);
+            this.lblTenSP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
             this.lblTenSP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblTenSP.Location = new System.Drawing.Point(16, 108);
             this.lblTenSP.Name = "lblTenSP";
             this.lblTenSP.Size = new System.Drawing.Size(130, 19);
             this.lblTenSP.TabIndex = 6;
-            this.lblTenSP.Text = "Tên: Xe";
+            this.lblTenSP.Text = "Tên: Trà Sữa";
             this.lblTenSP.MouseEnter += new System.EventHandler(this.ucSanPham_MouseEnter);
             this.lblTenSP.MouseLeave += new System.EventHandler(this.ucSanPham_MouseLeave);
             // 
             // lblSanCo
             // 
-            this.lblSanCo.Font = new System.Drawing.Font("UTM Avo", 7F);
+            this.lblSanCo.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F);
             this.lblSanCo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblSanCo.Location = new System.Drawing.Point(84, 145);
             this.lblSanCo.Name = "lblSanCo";
