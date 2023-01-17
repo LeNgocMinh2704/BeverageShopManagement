@@ -97,7 +97,7 @@
             this.btnShowPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnShowPass.ImageIndex = 0;
             this.btnShowPass.ImageList = this.imageList1;
-            this.btnShowPass.Location = new System.Drawing.Point(975, 277);
+            this.btnShowPass.Location = new System.Drawing.Point(1024, 275);
             this.btnShowPass.Name = "btnShowPass";
             this.btnShowPass.Size = new System.Drawing.Size(27, 25);
             this.btnShowPass.TabIndex = 11;
@@ -126,8 +126,6 @@
             // btnDangNhap
             // 
             this.btnDangNhap.Animated = true;
-            this.btnDangNhap.AutoRoundedCorners = true;
-            this.btnDangNhap.BorderRadius = 24;
             this.btnDangNhap.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnDangNhap.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnDangNhap.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -144,8 +142,6 @@
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.AutoRoundedCorners = true;
-            this.txtMatKhau.BorderRadius = 29;
             this.txtMatKhau.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMatKhau.DefaultText = "";
             this.txtMatKhau.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -155,6 +151,8 @@
             this.txtMatKhau.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMatKhau.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
             this.txtMatKhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtMatKhau.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtMatKhau.IconLeft")));
+            this.txtMatKhau.IconLeftSize = new System.Drawing.Size(30, 30);
             this.txtMatKhau.Location = new System.Drawing.Point(542, 258);
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtMatKhau.Name = "txtMatKhau";
@@ -166,8 +164,6 @@
             // 
             // txtTenDangNhap
             // 
-            this.txtTenDangNhap.AutoRoundedCorners = true;
-            this.txtTenDangNhap.BorderRadius = 29;
             this.txtTenDangNhap.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTenDangNhap.DefaultText = "";
             this.txtTenDangNhap.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -177,6 +173,8 @@
             this.txtTenDangNhap.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTenDangNhap.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
             this.txtTenDangNhap.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTenDangNhap.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtTenDangNhap.IconLeft")));
+            this.txtTenDangNhap.IconLeftSize = new System.Drawing.Size(30, 30);
             this.txtTenDangNhap.Location = new System.Drawing.Point(542, 149);
             this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtTenDangNhap.Name = "txtTenDangNhap";
