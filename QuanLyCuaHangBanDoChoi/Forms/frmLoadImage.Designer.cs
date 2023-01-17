@@ -43,9 +43,9 @@
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(133)))), ((int)(((byte)(204)))));
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.label4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
@@ -68,10 +68,10 @@
             // 
             // btnChon
             // 
-            this.btnChon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(145)))), ((int)(((byte)(249)))));
+            this.btnChon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.btnChon.FlatAppearance.BorderSize = 0;
             this.btnChon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChon.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChon.ForeColor = System.Drawing.Color.White;
             this.btnChon.Location = new System.Drawing.Point(264, 39);
             this.btnChon.Name = "btnChon";
@@ -87,7 +87,7 @@
             this.groupBox2.Controls.Add(this.lblThongBao);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.txtURL);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(4, 140);
             this.groupBox2.Name = "groupBox2";
@@ -98,7 +98,7 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(145)))), ((int)(((byte)(249)))));
+            this.btnLoad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.btnLoad.FlatAppearance.BorderSize = 0;
             this.btnLoad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -114,11 +114,11 @@
             // lblThongBao
             // 
             this.lblThongBao.AutoSize = true;
-            this.lblThongBao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblThongBao.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThongBao.ForeColor = System.Drawing.Color.OrangeRed;
             this.lblThongBao.Location = new System.Drawing.Point(245, 75);
             this.lblThongBao.Name = "lblThongBao";
-            this.lblThongBao.Size = new System.Drawing.Size(111, 16);
+            this.lblThongBao.Size = new System.Drawing.Size(109, 17);
             this.lblThongBao.TabIndex = 56;
             this.lblThongBao.Text = "URL không đúng!";
             this.lblThongBao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -128,11 +128,11 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(8, 48);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(38, 16);
+            this.label10.Size = new System.Drawing.Size(43, 21);
             this.label10.TabIndex = 56;
             this.label10.Text = "URL:";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -140,17 +140,17 @@
             // txtURL
             // 
             this.txtURL.BackColor = System.Drawing.Color.White;
-            this.txtURL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtURL.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtURL.ForeColor = System.Drawing.Color.Black;
-            this.txtURL.Location = new System.Drawing.Point(43, 42);
+            this.txtURL.Location = new System.Drawing.Point(57, 42);
             this.txtURL.Name = "txtURL";
-            this.txtURL.Size = new System.Drawing.Size(545, 26);
+            this.txtURL.Size = new System.Drawing.Size(531, 29);
             this.txtURL.TabIndex = 7;
             this.txtURL.TextChanged += new System.EventHandler(this.txtURL_TextChanged);
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(133)))), ((int)(((byte)(204)))));
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

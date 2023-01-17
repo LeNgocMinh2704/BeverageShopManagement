@@ -45,13 +45,11 @@
             this.button8 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button1 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.button9 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.labelTime = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lbQuyen = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.labelTime = new System.Windows.Forms.Label();
             this.lbTenNV = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.timerPanel = new System.Windows.Forms.Timer(this.components);
@@ -59,6 +57,8 @@
             this.imageListIcon = new System.Windows.Forms.ImageList(this.components);
             this.panelControls = new System.Windows.Forms.Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.button9 = new Guna.UI2.WinForms.Guna2Button();
+            this.button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panelLeft.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
@@ -333,7 +333,6 @@
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.button1);
-            this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.button9);
             this.panel4.Controls.Add(this.labelTime);
             this.panel4.Controls.Add(this.label4);
@@ -343,37 +342,17 @@
             this.panel4.Size = new System.Drawing.Size(1435, 48);
             this.panel4.TabIndex = 1;
             // 
-            // button1
+            // labelTime
             // 
-            this.button1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.button1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button1.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.button1.ImageRotate = 0F;
-            this.button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.button1.Location = new System.Drawing.Point(1351, 0);
-            this.button1.Name = "button1";
-            this.button1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.button1.Size = new System.Drawing.Size(41, 46);
-            this.button1.TabIndex = 5;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button9
-            // 
-            this.button9.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.button9.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button9.HoverState.ImageSize = new System.Drawing.Size(64, 64);
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.ImageOffset = new System.Drawing.Point(0, 0);
-            this.button9.ImageRotate = 0F;
-            this.button9.ImageSize = new System.Drawing.Size(20, 20);
-            this.button9.Location = new System.Drawing.Point(1392, 0);
-            this.button9.Name = "button9";
-            this.button9.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.button9.Size = new System.Drawing.Size(41, 46);
-            this.button9.TabIndex = 4;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.labelTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelTime.AutoSize = true;
+            this.labelTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(107)))), ((int)(((byte)(67)))));
+            this.labelTime.Location = new System.Drawing.Point(330, 14);
+            this.labelTime.Name = "labelTime";
+            this.labelTime.Size = new System.Drawing.Size(97, 20);
+            this.labelTime.TabIndex = 0;
+            this.labelTime.Text = "HH:MM:SS";
             // 
             // label4
             // 
@@ -386,11 +365,23 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Beverage Shop Management ";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(107)))), ((int)(((byte)(67)))));
+            this.label6.Location = new System.Drawing.Point(24, 50);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 20);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Quyền:";
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(187)))), ((int)(((byte)(128)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.lbQuyen);
+            this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.lbTenNV);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -408,29 +399,6 @@
             this.lbQuyen.Name = "lbQuyen";
             this.lbQuyen.Size = new System.Drawing.Size(0, 20);
             this.lbQuyen.TabIndex = 0;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(107)))), ((int)(((byte)(67)))));
-            this.label6.Location = new System.Drawing.Point(433, 14);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 20);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Quyền:";
-            // 
-            // labelTime
-            // 
-            this.labelTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelTime.AutoSize = true;
-            this.labelTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(107)))), ((int)(((byte)(67)))));
-            this.labelTime.Location = new System.Drawing.Point(330, 14);
-            this.labelTime.Name = "labelTime";
-            this.labelTime.Size = new System.Drawing.Size(97, 20);
-            this.labelTime.TabIndex = 0;
-            this.labelTime.Text = "HH:MM:SS";
             // 
             // lbTenNV
             // 
@@ -498,6 +466,40 @@
             this.guna2Elipse1.BorderRadius = 5;
             this.guna2Elipse1.TargetControl = this.panelSide;
             // 
+            // button9
+            // 
+            this.button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.button9.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button9.FillColor = System.Drawing.Color.White;
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
+            this.button9.Location = new System.Drawing.Point(1386, 0);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(47, 46);
+            this.button9.TabIndex = 17;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button1
+            // 
+            this.button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.button1.FillColor = System.Drawing.Color.White;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageSize = new System.Drawing.Size(30, 30);
+            this.button1.Location = new System.Drawing.Point(1333, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(47, 46);
+            this.button1.TabIndex = 18;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmChinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -553,9 +555,9 @@
         private Guna.UI2.WinForms.Guna2Button btnKhachHang;
         private Guna.UI2.WinForms.Guna2ToggleSwitch button8;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2ImageButton button1;
-        private Guna.UI2.WinForms.Guna2ImageButton button9;
         private System.Windows.Forms.Label TenNV;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
+        private Guna.UI2.WinForms.Guna2Button button9;
+        private Guna.UI2.WinForms.Guna2Button button1;
     }
 }

@@ -26,3 +26,9 @@ D:\Oop\Project\ToyStorePOS\ToyStore-master\DTO\obj\Debug\DTO.csproj.AssemblyRefe
 D:\Oop\Project\ToyStorePOS\ToyStore-master\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\Oop\Project\ToyStorePOS\ToyStore-master\DTO\obj\Debug\DTO.dll
 D:\Oop\Project\ToyStorePOS\ToyStore-master\DTO\obj\Debug\DTO.pdb
+D:\Oop\Project\BeverageShopManagement\DTO\bin\Debug\DTO.dll
+D:\Oop\Project\BeverageShopManagement\DTO\bin\Debug\DTO.pdb
+D:\Oop\Project\BeverageShopManagement\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Oop\Project\BeverageShopManagement\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Oop\Project\BeverageShopManagement\DTO\obj\Debug\DTO.dll
+D:\Oop\Project\BeverageShopManagement\DTO\obj\Debug\DTO.pdb
