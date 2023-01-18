@@ -158,9 +158,9 @@
             "7 ngày qua",
             "Tháng này",
             "Tháng trước"});
-            this.cboDoanhThu.Location = new System.Drawing.Point(365, 0);
+            this.cboDoanhThu.Location = new System.Drawing.Point(328, 0);
             this.cboDoanhThu.Name = "cboDoanhThu";
-            this.cboDoanhThu.Size = new System.Drawing.Size(121, 29);
+            this.cboDoanhThu.Size = new System.Drawing.Size(158, 29);
             this.cboDoanhThu.TabIndex = 4;
             this.cboDoanhThu.SelectedIndexChanged += new System.EventHandler(this.cboDoanhThu_SelectedIndexChanged);
             this.cboDoanhThu.SelectedValueChanged += new System.EventHandler(this.cboDoanhThu_SelectedValueChanged);
@@ -176,7 +176,7 @@
             this.lblDoanhThu.Size = new System.Drawing.Size(486, 41);
             this.lblDoanhThu.TabIndex = 3;
             this.lblDoanhThu.Text = "Biểu Đồ Doanh Thu";
-            this.lblDoanhThu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblDoanhThu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel10
             // 
@@ -202,9 +202,9 @@
             this.cboTopSanPham2.Items.AddRange(new object[] {
             "Theo số lượng",
             "Theo doanh thu"});
-            this.cboTopSanPham2.Location = new System.Drawing.Point(216, 0);
+            this.cboTopSanPham2.Location = new System.Drawing.Point(211, 0);
             this.cboTopSanPham2.Name = "cboTopSanPham2";
-            this.cboTopSanPham2.Size = new System.Drawing.Size(149, 29);
+            this.cboTopSanPham2.Size = new System.Drawing.Size(154, 29);
             this.cboTopSanPham2.TabIndex = 4;
             this.cboTopSanPham2.SelectedValueChanged += new System.EventHandler(this.cboTopSanPham2_SelectedValueChanged);
             // 
@@ -336,7 +336,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(35)))), ((int)(((byte)(66)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(83)))), ((int)(((byte)(95)))));
             this.panel1.Controls.Add(this.guna2PictureBox3);
             this.panel1.Controls.Add(this.lbSanPhanDaBan);
             this.panel1.Controls.Add(this.label3);
@@ -390,7 +390,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(165)))), ((int)(((byte)(141)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(122)))), ((int)(((byte)(117)))));
             this.panel2.Controls.Add(this.guna2PictureBox1);
             this.panel2.Controls.Add(this.lbTongDoanhThu);
             this.panel2.Controls.Add(this.label6);
@@ -444,7 +444,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(188)))), ((int)(((byte)(156)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(201)))), ((int)(((byte)(170)))));
             this.panel3.Controls.Add(this.guna2PictureBox2);
             this.panel3.Controls.Add(this.lbTongKhachHang);
             this.panel3.Controls.Add(this.label8);

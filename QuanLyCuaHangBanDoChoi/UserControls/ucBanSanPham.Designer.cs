@@ -36,8 +36,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.btnLamMoi = new System.Windows.Forms.Button();
-            this.btnApDung = new System.Windows.Forms.Button();
             this.txtTenSP = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -92,6 +90,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnApDung = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLamMoi = new Guna.UI2.WinForms.Guna2Button();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
@@ -112,44 +112,6 @@
             this.tableLayoutPanel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btnLamMoi
-            // 
-            this.btnLamMoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
-            this.btnLamMoi.FlatAppearance.BorderSize = 0;
-            this.btnLamMoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLamMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLamMoi.ForeColor = System.Drawing.Color.White;
-            this.btnLamMoi.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_clean_32px;
-            this.btnLamMoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLamMoi.Location = new System.Drawing.Point(141, 67);
-            this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(114, 34);
-            this.btnLamMoi.TabIndex = 5;
-            this.btnLamMoi.Text = "Làm mới";
-            this.btnLamMoi.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLamMoi.UseVisualStyleBackColor = false;
-            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
-            this.btnLamMoi.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnLamMoi_KeyDown);
-            // 
-            // btnApDung
-            // 
-            this.btnApDung.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
-            this.btnApDung.FlatAppearance.BorderSize = 0;
-            this.btnApDung.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnApDung.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApDung.ForeColor = System.Drawing.Color.White;
-            this.btnApDung.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_ok_32px;
-            this.btnApDung.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnApDung.Location = new System.Drawing.Point(18, 67);
-            this.btnApDung.Name = "btnApDung";
-            this.btnApDung.Size = new System.Drawing.Size(117, 34);
-            this.btnApDung.TabIndex = 4;
-            this.btnApDung.Text = "Áp dụng";
-            this.btnApDung.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnApDung.UseVisualStyleBackColor = false;
-            this.btnApDung.Click += new System.EventHandler(this.btnApDung_Click);
-            this.btnApDung.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnApDung_KeyDown);
             // 
             // txtTenSP
             // 
@@ -641,7 +603,7 @@
             this.cboLocLoaiSP.FormattingEnabled = true;
             this.cboLocLoaiSP.Location = new System.Drawing.Point(260, 30);
             this.cboLocLoaiSP.Name = "cboLocLoaiSP";
-            this.cboLocLoaiSP.Size = new System.Drawing.Size(109, 29);
+            this.cboLocLoaiSP.Size = new System.Drawing.Size(131, 29);
             this.cboLocLoaiSP.TabIndex = 1;
             this.cboLocLoaiSP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboLocLoaiSP_KeyDown);
             // 
@@ -779,7 +741,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(256, 7);
+            this.label8.Location = new System.Drawing.Point(256, 6);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(113, 21);
             this.label8.TabIndex = 55;
@@ -792,9 +754,9 @@
             this.cboLocNCC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboLocNCC.ForeColor = System.Drawing.Color.Black;
             this.cboLocNCC.FormattingEnabled = true;
-            this.cboLocNCC.Location = new System.Drawing.Point(375, 30);
+            this.cboLocNCC.Location = new System.Drawing.Point(397, 30);
             this.cboLocNCC.Name = "cboLocNCC";
-            this.cboLocNCC.Size = new System.Drawing.Size(109, 29);
+            this.cboLocNCC.Size = new System.Drawing.Size(126, 29);
             this.cboLocNCC.TabIndex = 56;
             this.cboLocNCC.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboLocNCC_KeyDown);
             // 
@@ -803,7 +765,7 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.Black;
-            this.label25.Location = new System.Drawing.Point(371, 7);
+            this.label25.Location = new System.Drawing.Point(393, 6);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(109, 21);
             this.label25.TabIndex = 57;
@@ -813,13 +775,13 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Controls.Add(this.btnLamMoi);
+            this.panel4.Controls.Add(this.btnApDung);
             this.panel4.Controls.Add(this.panel7);
             this.panel4.Controls.Add(this.label25);
             this.panel4.Controls.Add(this.cboLocNCC);
             this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.cboLocLoaiSP);
-            this.panel4.Controls.Add(this.btnLamMoi);
-            this.panel4.Controls.Add(this.btnApDung);
             this.panel4.Controls.Add(this.label7);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -877,6 +839,48 @@
             this.panel1.Size = new System.Drawing.Size(985, 157);
             this.panel1.TabIndex = 3;
             // 
+            // btnApDung
+            // 
+            this.btnApDung.Animated = true;
+            this.btnApDung.BackColor = System.Drawing.Color.SpringGreen;
+            this.btnApDung.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnApDung.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnApDung.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnApDung.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnApDung.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
+            this.btnApDung.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnApDung.ForeColor = System.Drawing.Color.White;
+            this.btnApDung.Image = ((System.Drawing.Image)(resources.GetObject("btnApDung.Image")));
+            this.btnApDung.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnApDung.Location = new System.Drawing.Point(18, 68);
+            this.btnApDung.Name = "btnApDung";
+            this.btnApDung.Size = new System.Drawing.Size(236, 37);
+            this.btnApDung.TabIndex = 65;
+            this.btnApDung.Text = "Áp Dụng";
+            this.btnApDung.Click += new System.EventHandler(this.btnApDung_Click);
+            this.btnApDung.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnApDung_KeyDown);
+            // 
+            // btnLamMoi
+            // 
+            this.btnLamMoi.Animated = true;
+            this.btnLamMoi.BackColor = System.Drawing.Color.SpringGreen;
+            this.btnLamMoi.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLamMoi.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLamMoi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLamMoi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLamMoi.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
+            this.btnLamMoi.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnLamMoi.ForeColor = System.Drawing.Color.White;
+            this.btnLamMoi.Image = ((System.Drawing.Image)(resources.GetObject("btnLamMoi.Image")));
+            this.btnLamMoi.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnLamMoi.Location = new System.Drawing.Point(260, 68);
+            this.btnLamMoi.Name = "btnLamMoi";
+            this.btnLamMoi.Size = new System.Drawing.Size(263, 37);
+            this.btnLamMoi.TabIndex = 64;
+            this.btnLamMoi.Text = "Làm Mới";
+            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
+            this.btnLamMoi.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnLamMoi_KeyDown);
+            // 
             // ucBanSanPham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -917,8 +921,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btnLamMoi;
-        private System.Windows.Forms.Button btnApDung;
         private System.Windows.Forms.TextBox txtTenSP;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel5;
@@ -973,5 +975,7 @@
         private Guna.UI2.WinForms.Guna2TextBox txtTenKH;
         private Guna.UI2.WinForms.Guna2TextBox txtTienThua;
         private Guna.UI2.WinForms.Guna2TextBox txtTienKHTra;
+        private Guna.UI2.WinForms.Guna2Button btnLamMoi;
+        private Guna.UI2.WinForms.Guna2Button btnApDung;
     }
 }
