@@ -54,9 +54,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.pnlThongTinSanPham = new System.Windows.Forms.Panel();
-            this.txtTienThua = new System.Windows.Forms.TextBox();
+            this.txtTienThua = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtTienKHTra = new Guna.UI2.WinForms.Guna2TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.txtTienKHTra = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btnHuy = new System.Windows.Forms.Button();
             this.btnThanhToan = new System.Windows.Forms.Button();
@@ -76,9 +76,9 @@
             this.cboLocLoaiSP = new System.Windows.Forms.ComboBox();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.panel3 = new System.Windows.Forms.Panel();
+            this.txtTenKH = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtSDT = new Guna.UI2.WinForms.Guna2TextBox();
             this.picThanhCong = new System.Windows.Forms.PictureBox();
-            this.txtSDT = new ChreneLib.Controls.TextBoxes.CTextBox();
-            this.txtTenKH = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -115,7 +115,7 @@
             // 
             // btnLamMoi
             // 
-            this.btnLamMoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(145)))), ((int)(((byte)(249)))));
+            this.btnLamMoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.btnLamMoi.FlatAppearance.BorderSize = 0;
             this.btnLamMoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLamMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -134,7 +134,7 @@
             // 
             // btnApDung
             // 
-            this.btnApDung.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(145)))), ((int)(((byte)(249)))));
+            this.btnApDung.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.btnApDung.FlatAppearance.BorderSize = 0;
             this.btnApDung.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnApDung.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -155,7 +155,7 @@
             // 
             this.txtTenSP.BackColor = System.Drawing.Color.White;
             this.txtTenSP.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTenSP.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenSP.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenSP.ForeColor = System.Drawing.Color.Black;
             this.txtTenSP.Location = new System.Drawing.Point(3, 2);
             this.txtTenSP.Name = "txtTenSP";
@@ -166,11 +166,11 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(14, 7);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(110, 20);
+            this.label7.Size = new System.Drawing.Size(108, 21);
             this.label7.TabIndex = 55;
             this.label7.Text = "Tên sản phẩm";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -187,9 +187,9 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(133)))), ((int)(((byte)(204)))));
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
@@ -210,7 +210,7 @@
             // 
             // tableLayoutPanel4
             // 
-            this.tableLayoutPanel4.BackColor = System.Drawing.Color.Silver;
+            this.tableLayoutPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.tableLayoutPanel4.ColumnCount = 1;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.Controls.Add(this.panel9, 0, 1);
@@ -314,20 +314,20 @@
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(133)))), ((int)(((byte)(204)))));
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(526, 31);
             this.label4.TabIndex = 56;
-            this.label4.Text = "Danh Sach Sản Phẩm";
+            this.label4.Text = "Danh Sách Sản Phẩm";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel3
             // 
-            this.tableLayoutPanel3.BackColor = System.Drawing.Color.Silver;
+            this.tableLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel3.Controls.Add(this.pnlThongTinSanPham, 0, 1);
@@ -345,8 +345,8 @@
             // 
             this.pnlThongTinSanPham.BackColor = System.Drawing.Color.White;
             this.pnlThongTinSanPham.Controls.Add(this.txtTienThua);
-            this.pnlThongTinSanPham.Controls.Add(this.label9);
             this.pnlThongTinSanPham.Controls.Add(this.txtTienKHTra);
+            this.pnlThongTinSanPham.Controls.Add(this.label9);
             this.pnlThongTinSanPham.Controls.Add(this.label6);
             this.pnlThongTinSanPham.Controls.Add(this.btnHuy);
             this.pnlThongTinSanPham.Controls.Add(this.btnThanhToan);
@@ -361,48 +361,67 @@
             // 
             // txtTienThua
             // 
-            this.txtTienThua.BackColor = System.Drawing.Color.White;
-            this.txtTienThua.Enabled = false;
-            this.txtTienThua.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTienThua.ForeColor = System.Drawing.Color.Black;
-            this.txtTienThua.Location = new System.Drawing.Point(170, 305);
+            this.txtTienThua.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTienThua.DefaultText = "";
+            this.txtTienThua.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTienThua.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTienThua.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTienThua.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTienThua.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTienThua.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtTienThua.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTienThua.Location = new System.Drawing.Point(170, 314);
             this.txtTienThua.Name = "txtTienThua";
-            this.txtTienThua.Size = new System.Drawing.Size(189, 29);
-            this.txtTienThua.TabIndex = 60;
+            this.txtTienThua.PasswordChar = '\0';
+            this.txtTienThua.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtTienThua.PlaceholderText = "Đơn Vị VND";
+            this.txtTienThua.SelectedText = "";
+            this.txtTienThua.Size = new System.Drawing.Size(255, 34);
+            this.txtTienThua.TabIndex = 63;
             this.txtTienThua.TextChanged += new System.EventHandler(this.txtTienThua_TextChanged);
+            // 
+            // txtTienKHTra
+            // 
+            this.txtTienKHTra.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTienKHTra.DefaultText = "";
+            this.txtTienKHTra.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTienKHTra.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTienKHTra.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTienKHTra.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTienKHTra.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTienKHTra.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtTienKHTra.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTienKHTra.Location = new System.Drawing.Point(170, 271);
+            this.txtTienKHTra.Name = "txtTienKHTra";
+            this.txtTienKHTra.PasswordChar = '\0';
+            this.txtTienKHTra.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtTienKHTra.PlaceholderText = "Đơn Vị VND";
+            this.txtTienKHTra.SelectedText = "";
+            this.txtTienKHTra.Size = new System.Drawing.Size(255, 34);
+            this.txtTienKHTra.TabIndex = 62;
+            this.txtTienKHTra.TextChanged += new System.EventHandler(this.txtTienKHTra_TextChanged);
+            this.txtTienKHTra.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTienKHTra_KeyDown);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(94, 312);
+            this.label9.Location = new System.Drawing.Point(82, 327);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(79, 20);
+            this.label9.Size = new System.Drawing.Size(82, 21);
             this.label9.TabIndex = 61;
             this.label9.Text = "Tiền thừa:";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtTienKHTra
-            // 
-            this.txtTienKHTra.BackColor = System.Drawing.Color.White;
-            this.txtTienKHTra.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTienKHTra.ForeColor = System.Drawing.Color.Black;
-            this.txtTienKHTra.Location = new System.Drawing.Point(170, 274);
-            this.txtTienKHTra.Name = "txtTienKHTra";
-            this.txtTienKHTra.Size = new System.Drawing.Size(189, 29);
-            this.txtTienKHTra.TabIndex = 60;
-            this.txtTienKHTra.TextChanged += new System.EventHandler(this.txtTienKHTra_TextChanged);
-            this.txtTienKHTra.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTienKHTra_KeyDown);
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(20, 281);
+            this.label6.Location = new System.Drawing.Point(9, 284);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(153, 20);
+            this.label6.Size = new System.Drawing.Size(155, 21);
             this.label6.TabIndex = 61;
             this.label6.Text = "Tiền khách hàng trả:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -416,7 +435,7 @@
             this.btnHuy.ForeColor = System.Drawing.Color.White;
             this.btnHuy.Image = ((System.Drawing.Image)(resources.GetObject("btnHuy.Image")));
             this.btnHuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHuy.Location = new System.Drawing.Point(244, 342);
+            this.btnHuy.Location = new System.Drawing.Point(229, 372);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(126, 34);
             this.btnHuy.TabIndex = 59;
@@ -434,7 +453,7 @@
             this.btnThanhToan.ForeColor = System.Drawing.Color.White;
             this.btnThanhToan.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_pay_32px;
             this.btnThanhToan.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.btnThanhToan.Location = new System.Drawing.Point(58, 342);
+            this.btnThanhToan.Location = new System.Drawing.Point(43, 372);
             this.btnThanhToan.Name = "btnThanhToan";
             this.btnThanhToan.Size = new System.Drawing.Size(180, 34);
             this.btnThanhToan.TabIndex = 58;
@@ -449,7 +468,7 @@
             this.lblTongTien.AutoSize = true;
             this.lblTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.lblTongTien.ForeColor = System.Drawing.Color.DarkOrange;
-            this.lblTongTien.Location = new System.Drawing.Point(168, 239);
+            this.lblTongTien.Location = new System.Drawing.Point(176, 239);
             this.lblTongTien.Name = "lblTongTien";
             this.lblTongTien.Size = new System.Drawing.Size(26, 29);
             this.lblTongTien.TabIndex = 57;
@@ -460,14 +479,15 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(62, 246);
+            this.label5.Location = new System.Drawing.Point(48, 245);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 20);
+            this.label5.Size = new System.Drawing.Size(116, 21);
             this.label5.TabIndex = 57;
             this.label5.Text = "Tổng hóa đơn:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // dgvCTHD
             // 
@@ -602,9 +622,9 @@
             // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(133)))), ((int)(((byte)(204)))));
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
@@ -616,21 +636,21 @@
             // cboLocLoaiSP
             // 
             this.cboLocLoaiSP.BackColor = System.Drawing.Color.White;
-            this.cboLocLoaiSP.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.cboLocLoaiSP.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboLocLoaiSP.ForeColor = System.Drawing.Color.Black;
             this.cboLocLoaiSP.FormattingEnabled = true;
             this.cboLocLoaiSP.Location = new System.Drawing.Point(260, 30);
             this.cboLocLoaiSP.Name = "cboLocLoaiSP";
-            this.cboLocLoaiSP.Size = new System.Drawing.Size(109, 32);
+            this.cboLocLoaiSP.Size = new System.Drawing.Size(109, 29);
             this.cboLocLoaiSP.TabIndex = 1;
             this.cboLocLoaiSP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboLocLoaiSP_KeyDown);
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.picThanhCong);
-            this.panel3.Controls.Add(this.txtSDT);
             this.panel3.Controls.Add(this.txtTenKH);
+            this.panel3.Controls.Add(this.txtSDT);
+            this.panel3.Controls.Add(this.picThanhCong);
             this.panel3.Controls.Add(this.label12);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -638,6 +658,47 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(447, 112);
             this.panel3.TabIndex = 55;
+            // 
+            // txtTenKH
+            // 
+            this.txtTenKH.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTenKH.DefaultText = "";
+            this.txtTenKH.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtTenKH.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtTenKH.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTenKH.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtTenKH.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTenKH.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtTenKH.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtTenKH.Location = new System.Drawing.Point(146, 58);
+            this.txtTenKH.Name = "txtTenKH";
+            this.txtTenKH.PasswordChar = '\0';
+            this.txtTenKH.PlaceholderText = "";
+            this.txtTenKH.SelectedText = "";
+            this.txtTenKH.Size = new System.Drawing.Size(232, 36);
+            this.txtTenKH.TabIndex = 63;
+            this.txtTenKH.TextChanged += new System.EventHandler(this.txtTenKH_TextChanged);
+            // 
+            // txtSDT
+            // 
+            this.txtSDT.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSDT.DefaultText = "";
+            this.txtSDT.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtSDT.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtSDT.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSDT.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSDT.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSDT.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtSDT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSDT.Location = new System.Drawing.Point(147, 16);
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.PasswordChar = '\0';
+            this.txtSDT.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txtSDT.PlaceholderText = "Nhập SDT Khách Hàng";
+            this.txtSDT.SelectedText = "";
+            this.txtSDT.Size = new System.Drawing.Size(231, 36);
+            this.txtSDT.TabIndex = 62;
+            this.txtSDT.TextChanged += new System.EventHandler(this.txtTenDangNhap_TextChanged);
             // 
             // picThanhCong
             // 
@@ -650,42 +711,14 @@
             this.picThanhCong.TabStop = false;
             this.picThanhCong.Visible = false;
             // 
-            // txtSDT
-            // 
-            this.txtSDT.BackColor = System.Drawing.Color.White;
-            this.txtSDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.txtSDT.ForeColor = System.Drawing.Color.Black;
-            this.txtSDT.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtSDT.Location = new System.Drawing.Point(147, 23);
-            this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(231, 29);
-            this.txtSDT.TabIndex = 60;
-            this.txtSDT.WaterMark = "Nhập vào số điện thoại";
-            this.txtSDT.WaterMarkActiveForeColor = System.Drawing.Color.Silver;
-            this.txtSDT.WaterMarkFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtSDT.WaterMarkForeColor = System.Drawing.Color.Silver;
-            this.txtSDT.TextChanged += new System.EventHandler(this.txtTenDangNhap_TextChanged);
-            // 
-            // txtTenKH
-            // 
-            this.txtTenKH.BackColor = System.Drawing.Color.White;
-            this.txtTenKH.Enabled = false;
-            this.txtTenKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenKH.ForeColor = System.Drawing.Color.Black;
-            this.txtTenKH.Location = new System.Drawing.Point(147, 58);
-            this.txtTenKH.Name = "txtTenKH";
-            this.txtTenKH.Size = new System.Drawing.Size(231, 29);
-            this.txtTenKH.TabIndex = 57;
-            this.txtTenKH.TextChanged += new System.EventHandler(this.txtTenKH_TextChanged);
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(22, 64);
+            this.label12.Location = new System.Drawing.Point(19, 58);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(123, 20);
+            this.label12.Size = new System.Drawing.Size(121, 21);
             this.label12.TabIndex = 58;
             this.label12.Text = "Tên khách hàng";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -693,18 +726,18 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(43, 29);
+            this.label10.Location = new System.Drawing.Point(19, 25);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(102, 20);
+            this.label10.Size = new System.Drawing.Size(106, 21);
             this.label10.TabIndex = 59;
             this.label10.Text = "Số điện thoại";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Silver;
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.panel3, 0, 1);
@@ -730,9 +763,9 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(133)))), ((int)(((byte)(204)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
@@ -744,11 +777,11 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(256, 7);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(113, 20);
+            this.label8.Size = new System.Drawing.Size(113, 21);
             this.label8.TabIndex = 55;
             this.label8.Text = "Loại sản phẩm";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -756,23 +789,23 @@
             // cboLocNCC
             // 
             this.cboLocNCC.BackColor = System.Drawing.Color.White;
-            this.cboLocNCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.cboLocNCC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboLocNCC.ForeColor = System.Drawing.Color.Black;
             this.cboLocNCC.FormattingEnabled = true;
             this.cboLocNCC.Location = new System.Drawing.Point(375, 30);
             this.cboLocNCC.Name = "cboLocNCC";
-            this.cboLocNCC.Size = new System.Drawing.Size(109, 32);
+            this.cboLocNCC.Size = new System.Drawing.Size(109, 29);
             this.cboLocNCC.TabIndex = 56;
             this.cboLocNCC.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cboLocNCC_KeyDown);
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.Black;
             this.label25.Location = new System.Drawing.Point(371, 7);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(107, 20);
+            this.label25.Size = new System.Drawing.Size(109, 21);
             this.label25.TabIndex = 57;
             this.label25.Text = "Nhà cung cấp";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -801,6 +834,7 @@
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.pictureBox1);
             this.panel7.Controls.Add(this.txtTenSP);
+            this.panel7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel7.ForeColor = System.Drawing.Color.Black;
             this.panel7.Location = new System.Drawing.Point(17, 30);
             this.panel7.Name = "panel7";
@@ -819,7 +853,7 @@
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.BackColor = System.Drawing.Color.Silver;
+            this.tableLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Controls.Add(this.panel4, 0, 1);
@@ -907,19 +941,15 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelSanPham;
-        private System.Windows.Forms.TextBox txtTenKH;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label10;
-        private ChreneLib.Controls.TextBoxes.CTextBox txtSDT;
         private System.Windows.Forms.DataGridView dgvCTHD;
         private System.Windows.Forms.Label lblTongTien;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnHuy;
         private System.Windows.Forms.Button btnThanhToan;
         private System.Windows.Forms.PictureBox picThanhCong;
-        private System.Windows.Forms.TextBox txtTienThua;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtTienKHTra;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel7;
@@ -939,5 +969,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Tong;
         private System.Windows.Forms.DataGridViewButtonColumn Xoa;
         private System.Windows.Forms.DataGridViewButtonColumn Them;
+        private Guna.UI2.WinForms.Guna2TextBox txtSDT;
+        private Guna.UI2.WinForms.Guna2TextBox txtTenKH;
+        private Guna.UI2.WinForms.Guna2TextBox txtTienThua;
+        private Guna.UI2.WinForms.Guna2TextBox txtTienKHTra;
     }
 }
