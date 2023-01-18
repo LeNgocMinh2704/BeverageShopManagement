@@ -801,7 +801,8 @@
             "Cái",
             "Hộp",
             "Thùng",
-            "Chiếc"});
+            "Chiếc",
+            "Phần"});
             this.cboDVT.Location = new System.Drawing.Point(116, 299);
             this.cboDVT.Name = "cboDVT";
             this.cboDVT.Size = new System.Drawing.Size(192, 32);
