@@ -458,6 +458,13 @@ D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\bin\Debug\zh-CHS\Mi
 D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
 D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\PresentationLayer.csproj.SuggestedBindingRedirects.cache
+D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCuaHangBanDoChoi.Properties.Resources.resources
+D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\PresentationLayer.csproj.CopyComplete
+D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCuaHangBanDoChoi.exe
+D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCuaHangBanDoChoi.pdb
+D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\bin\Debug\Guna.UI2.dll
 D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCuaHangBanDoChoi.Forms.frmChinh.resources
 D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCuaHangBanDoChoi.Forms.frmChonNCC.resources
 D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCuaHangBanDoChoi.Forms.frmDangNhap.resources
@@ -478,10 +485,3 @@ D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCua
 D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCuaHangBanDoChoi.UserControls.ucSanPham.resources
 D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCuaHangBanDoChoi.UserControls.ucThietLap.resources
 D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCuaHangBanDoChoi.UserControls.ucTrangChu.resources
-D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCuaHangBanDoChoi.Properties.Resources.resources
-D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
-D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
-D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\PresentationLayer.csproj.CopyComplete
-D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCuaHangBanDoChoi.exe
-D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\obj\Debug\QuanLyCuaHangBanDoChoi.pdb
-D:\Oop\Project\BeverageShopManagement\QuanLyCuaHangBanDoChoi\bin\Debug\Guna.UI2.dll
